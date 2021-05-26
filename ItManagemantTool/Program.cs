@@ -7,7 +7,7 @@ namespace ItManagemantTool
     {
         static void Main(string[] args)
         {
-            TestSimulationUtil.GenerateCompany("myCompaany").GenerateReport();
+            TestSimulationUtil.GenerateCompany("Karen's Company").GenerateReport();
         }
     }
 }
