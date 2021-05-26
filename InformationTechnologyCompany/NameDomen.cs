@@ -4,7 +4,7 @@ using System.Text;
 
 namespace InformationTechnologyCompany
 {
-    class NameDomen
+    public class NameDomen
     {
         static readonly string[] endOfEmails = { "@gmail.com", "@mail.ru", "@yahoo.com" };
 

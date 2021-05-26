@@ -4,7 +4,7 @@ using System.Text;
 
 namespace InformationTechnologyCompany
 {
-    interface IFinanceDepartment
+    public interface IFinanceDepartment
     {
         void RaiseSalary(uint amount);
     }

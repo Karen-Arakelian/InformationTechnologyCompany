@@ -4,7 +4,7 @@ using System.Text;
 
 namespace InformationTechnologyCompany
 {
-    class Company : Unit<Department>
+    public class Company : Unit<Department>
     {
         Employee chiefExecutiveOfficer;
         public Company(string name) : base(name, UnitType.Company)

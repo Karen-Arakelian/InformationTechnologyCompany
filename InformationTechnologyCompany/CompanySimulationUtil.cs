@@ -4,7 +4,7 @@ using System.Text;
 
 namespace InformationTechnologyCompany
 {
-    class CompanySimulationUtil
+    public class CompanySimulationUtil
     {
         
         public static Employee GenerateFutureEmployee()
@@ -34,37 +34,6 @@ namespace InformationTechnologyCompany
                 futureEmployeeList.Add(GenerateFutureEmployee());
             }
             return futureEmployeeList;   
-        }
-
-        public static Team GenerateTeam(string teamName)
-        {
-            Team team = new Team(teamName);
-            team.Manager = GenerateFutureEmployee();
-            team.AddEmployee(GenerateFutureEmployee());
-            team.AddEmployee(GenerateFutureEmployee());
-            team.AddEmployee(GenerateFutureEmployee());
-            return team;
-        }
-        public static Department GenerateDepartment(DepartmentName departmentName)
-            {
-            // generate a department with two teams : team A, team B;
-            Department department = new Department(departmentName);
-            department.Director = GenerateFutureEmployee();
-            department.AddTeam(GenerateTeam(departmentName + "Team A"));
-            department.AddTeam(GenerateTeam(departmentName + "Team B"));
-            return department;
-            }
-
-        public static Company GenerateCompany(string companyName)
-        {
-            // generate a company with four departments : HR, Finance, Development, QA
-            Company company = new Company(companyName);
-            company.ChiefExecutiveOfficer = GenerateFutureEmployee();
-            company.AddDepartment(GenerateDepartment(DepartmentName.Development));
-            company.AddDepartment(GenerateDepartment(DepartmentName.Finance));
-            company.AddDepartment(GenerateDepartment(DepartmentName.Marketing));
-            company.AddDepartment(GenerateDepartment(DepartmentName.QualityAssurance));
-            return company;
         }
 
         

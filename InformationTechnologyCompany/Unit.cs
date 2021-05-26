@@ -12,7 +12,7 @@ namespace InformationTechnologyCompany
         Team​,
         //Project
     }
-    class Unit<T> : IReportability
+    public class Unit<T> : IReportability
     {
         string unitId = CompanyUtil.getGuid();
         UnitType unitType;
@@ -118,7 +118,7 @@ namespace InformationTechnologyCompany
             }            
             return stringBuilder.ToString();
         }
-        public void generateReport()
+        public void GenerateReport()
         {
             Console.WriteLine(this.ToString());
         }
