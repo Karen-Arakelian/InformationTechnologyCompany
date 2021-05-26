@@ -6,6 +6,6 @@ namespace InformationTechnologyCompany
 {
     public interface IReportability
     {
-        public void generateReport();
+        public void GenerateReport();
     }
 }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace InformationTechnologyCompany
 {
-    class CountryCode
+    public class CountryCode
     {
         static readonly string[] countrysCodes = { "+374", "+7", "+46" };
 

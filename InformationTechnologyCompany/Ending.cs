@@ -4,7 +4,7 @@ using System.Text;
 
 namespace InformationTechnologyCompany
 {
-    class LastNameEnding
+    public class LastNameEnding
     {
         static readonly string[] endOfLastName = { "yan", "ov", "ova" };
 

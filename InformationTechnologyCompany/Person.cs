@@ -4,7 +4,7 @@ using System.Text;
 
 namespace InformationTechnologyCompany
 {
-    class Person 
+    public class Person 
     {
         string personalId;
         DateTime birthDate;

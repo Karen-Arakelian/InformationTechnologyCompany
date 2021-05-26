@@ -4,7 +4,7 @@ using System.Text;
 
 namespace InformationTechnologyCompany
 {
-    class Team : Unit<Employee>
+    public class Team : Unit<Employee>
     {
         Employee manager;
         string companyId = "";

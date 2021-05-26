@@ -25,7 +25,7 @@ namespace InformationTechnologyCompany
         ProjectManagementSpecialist,
         MarketingingSpecialist
     }
-    class Employee : Person, IReportability
+    public class Employee : Person, IReportability
     {
         string employeeId = CompanyUtil.getGuid();
         string companyId = "";
@@ -88,7 +88,7 @@ namespace InformationTechnologyCompany
             return stringBuilder.ToString();
         }
 
-        public void generateReport()
+        public void GenerateReport()
         {
             Console.WriteLine(this.ToString());
         }

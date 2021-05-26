@@ -4,7 +4,7 @@ using System.Text;
 
 namespace InformationTechnologyCompany
 {
-    class OperatorCode
+    public class OperatorCode
     {
         static readonly string[] operatorCodes = { "93", "94", "91", "96", "99", "77", "43", "44", "55" };
 

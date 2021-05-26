@@ -4,7 +4,7 @@ using System.Text;
 
 namespace InformationTechnologyCompany
 {
-    class PhoneNumberLength
+    public class PhoneNumberLength
     {
         static readonly int[] phoneNumberLengthArray = { 6, 8, 10, 11 };
 

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace InformationTechnologyCompany
 {
-    interface IHumanResourceDepartment
+    public interface IHumanResourceDepartment
     {
         void Hire(Team team, SpecialistType specialistType, QualificationLevel qualificationLevel, string personalId, string firstName,
             string lastName, string numberPhone, string email, DateTime birthDate);
